@@ -1,0 +1,80 @@
+POST http://localhost:8001/payment/create?serial=xxx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022509.200.json
+
+###
+
+POST http://localhost:8001/payment/create
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022452.200.json
+
+###
+
+POST http://localhost:8001/payment/create?id=100&serial=abcdef&serial=xxxx&serial=123456&serial=axq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022428.200.json
+
+###
+
+POST http://localhost:8001/payment/create?id=100&serial=abcdef&serial=xxxx&serial=123456&serial=axq
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022351.200.json
+
+###
+
+POST http://localhost:8001/payment/create'?id=100&serial=abcdef&serial=xxxx&serial=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022336.404.json
+
+###
+
+POST http://localhost:8001/payment/create?id=100&serial=abcdef&serial=xxxx&serial=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022335.200.json
+
+###
+
+POST http://localhost:8001/payment/create/abc?id=100&serial=abcdef&serial=xxxx&serial=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022323.200.json
+
+###
+
+POST http://localhost:8001/payment/create/abc?id=100&serial=abcdef&serial=xxxx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022259.200.json
+
+###
+
+POST http://localhost:8001/payment/create/a?id=100&serial=abcdef
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T022239.200.json
+
+###
+
+POST http://localhost:8001/payment/create/abcdefg
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-01-19T021953.200.json
+
+###
+
